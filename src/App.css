@@ -80,7 +80,7 @@ main {
   line-height: 100px;
 }
 .wrapper div:first-child button {
-  /* font-size: 50px; */
+  font-size: 50px;
   align-items: center;
   background-color: white;
   font-weight: 600;
