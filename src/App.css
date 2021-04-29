@@ -1,1 +1,111 @@
-/* Other rules */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap");
+/* 300 ou 600 */
+
+/* Global rules */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #567568;
+}
+.wrapper {
+  width: 90vw;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #567568;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-weight: 300;
+  font-size: 32px;
+  margin-left: 40px;
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  color: #567568;
+  padding: 0 0;
+  border-width: 0;
+  align-items: center;
+}
+button:focus {
+  outline: none;
+}
+
+/* Header */
+header {
+  border-bottom: 3px solid aquamarine;
+  padding: 20px;
+}
+header .wrapper {
+  display: flex;
+  align-items: center;
+}
+header img {
+  width: 50px;
+}
+
+/* Main */
+main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.wrapper > div {
+  height: 100px;
+}
+.wrapper div:first-child {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wrapper div:first-child span {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 0 50px;
+  background-color: aquamarine;
+  box-shadow: 2px 2px 5px rgb(22, 189, 133);
+  border-radius: 5px;
+  font-size: 50px;
+  line-height: 100px;
+}
+.wrapper div:first-child button {
+  /* font-size: 50px; */
+  align-items: center;
+  background-color: white;
+  font-weight: 600;
+}
+
+/* Reset button */
+.wrapper div:last-child {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper div:last-child button {
+  background-color: aquamarine;
+  box-shadow: 2px 2px 5px rgb(22, 189, 133);
+  font-size: 20px;
+  width: 100px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: aquamarine;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+}
