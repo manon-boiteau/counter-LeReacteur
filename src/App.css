@@ -33,6 +33,7 @@ button {
   padding: 20px 30px;
   border-width: 0;
   align-items: center;
+  cursor: pointer;
 }
 button:focus {
   outline: none;
